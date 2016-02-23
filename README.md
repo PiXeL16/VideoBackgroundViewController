@@ -1,4 +1,4 @@
-![Banner](/Web/VideoBackgroundViewControllerBanner.png)
+![Banner](/Web/videoBackgroundViewControllerBanner.png)
 
 [![Build Status](https://travis-ci.org/PiXeL16/VideoBackgroundViewController.svg?branch=master)](https://travis-ci.org/PiXeL16/VideoBackgroundViewController/) [![codecov.io](https://codecov.io/github/PiXeL16/VideoBackgroundViewController/coverage.svg?branch=master)](https://codecov.io/github/PiXeL16/VideoBackgroundViewController?branch=master) [![CocoaPods Compatible](https://img.shields.io/cocoapods/v/VideoBackgroundViewController.svg)](https://img.shields.io/cocoapods/v/VideoBackgroundViewController.svg) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/PiXeL16/VideoBackgroundViewController/master/LICENSE)
 
@@ -6,7 +6,7 @@
 A View Controller that shows a video in the background, like Spotify!
 Easily setup your Spotify like View Controller
 
-![VideoBackgroundViewControllerGif](/Web/VideoBackgroundViewController.gif)
+![VideoBackgroundViewControllerGif](/Web/videoBackgroundViewController.gif)
 
 :star: Features
 ---
@@ -59,7 +59,7 @@ override func viewDidLoad() {
 
 TODO
 -----
-* Protocolize the puk... out of this
+* Protocolize the f*ck out of this
 * Better code coverage
 
 :alien: Author
