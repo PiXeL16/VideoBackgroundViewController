@@ -15,6 +15,8 @@ target 'VideoBackgroundViewControllerTests' do
 end
 
 target 'VideoBackgroundSample' do
+    
+     pod 'VideoBackgroundViewController'
 
 end
 
