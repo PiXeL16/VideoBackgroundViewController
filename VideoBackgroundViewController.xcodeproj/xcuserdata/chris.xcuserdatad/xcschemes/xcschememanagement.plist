@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>VideoBackgroundSample.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>VideoBackgroundViewController.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -18,6 +23,16 @@
 			<true/>
 		</dict>
 		<key>83286D831C7C12670083CB19</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>83286D971C7C12AB0083CB19</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>83286DAA1C7C12AB0083CB19</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -10,6 +10,12 @@
 		83286D7E1C7C12670083CB19 /* VideoBackgroundViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 83286D7D1C7C12670083CB19 /* VideoBackgroundViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		83286D851C7C12670083CB19 /* VideoBackgroundViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83286D7A1C7C12670083CB19 /* VideoBackgroundViewController.framework */; };
 		83286D8A1C7C12670083CB19 /* VideoBackgroundViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83286D891C7C12670083CB19 /* VideoBackgroundViewControllerTests.swift */; };
+		83286D9B1C7C12AB0083CB19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83286D9A1C7C12AB0083CB19 /* AppDelegate.swift */; };
+		83286D9D1C7C12AB0083CB19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83286D9C1C7C12AB0083CB19 /* ViewController.swift */; };
+		83286DA01C7C12AB0083CB19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83286D9E1C7C12AB0083CB19 /* Main.storyboard */; };
+		83286DA21C7C12AB0083CB19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83286DA11C7C12AB0083CB19 /* Assets.xcassets */; };
+		83286DA51C7C12AB0083CB19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83286DA31C7C12AB0083CB19 /* LaunchScreen.storyboard */; };
+		83286DB01C7C12AB0083CB19 /* VideoBackgroundSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83286DAF1C7C12AB0083CB19 /* VideoBackgroundSampleTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -20,6 +26,13 @@
 			remoteGlobalIDString = 83286D791C7C12670083CB19;
 			remoteInfo = VideoBackgroundViewController;
 		};
+		83286DAC1C7C12AB0083CB19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83286D711C7C12670083CB19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83286D971C7C12AB0083CB19;
+			remoteInfo = VideoBackgroundSample;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +42,16 @@
 		83286D841C7C12670083CB19 /* VideoBackgroundViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoBackgroundViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83286D891C7C12670083CB19 /* VideoBackgroundViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoBackgroundViewControllerTests.swift; sourceTree = "<group>"; };
 		83286D8B1C7C12670083CB19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83286D981C7C12AB0083CB19 /* VideoBackgroundSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoBackgroundSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83286D9A1C7C12AB0083CB19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		83286D9C1C7C12AB0083CB19 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		83286D9F1C7C12AB0083CB19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		83286DA11C7C12AB0083CB19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83286DA41C7C12AB0083CB19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		83286DA61C7C12AB0083CB19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83286DAB1C7C12AB0083CB19 /* VideoBackgroundSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoBackgroundSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83286DAF1C7C12AB0083CB19 /* VideoBackgroundSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoBackgroundSampleTests.swift; sourceTree = "<group>"; };
+		83286DB11C7C12AB0083CB19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +70,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		83286D951C7C12AB0083CB19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83286DA81C7C12AB0083CB19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,6 +92,8 @@
 			children = (
 				83286D7C1C7C12670083CB19 /* VideoBackgroundViewController */,
 				83286D881C7C12670083CB19 /* VideoBackgroundViewControllerTests */,
+				83286D991C7C12AB0083CB19 /* VideoBackgroundSample */,
+				83286DAE1C7C12AB0083CB19 /* VideoBackgroundSampleTests */,
 				83286D7B1C7C12670083CB19 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +103,8 @@
 			children = (
 				83286D7A1C7C12670083CB19 /* VideoBackgroundViewController.framework */,
 				83286D841C7C12670083CB19 /* VideoBackgroundViewControllerTests.xctest */,
+				83286D981C7C12AB0083CB19 /* VideoBackgroundSample.app */,
+				83286DAB1C7C12AB0083CB19 /* VideoBackgroundSampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,6 +125,28 @@
 				83286D8B1C7C12670083CB19 /* Info.plist */,
 			);
 			path = VideoBackgroundViewControllerTests;
+			sourceTree = "<group>";
+		};
+		83286D991C7C12AB0083CB19 /* VideoBackgroundSample */ = {
+			isa = PBXGroup;
+			children = (
+				83286D9A1C7C12AB0083CB19 /* AppDelegate.swift */,
+				83286D9C1C7C12AB0083CB19 /* ViewController.swift */,
+				83286D9E1C7C12AB0083CB19 /* Main.storyboard */,
+				83286DA11C7C12AB0083CB19 /* Assets.xcassets */,
+				83286DA31C7C12AB0083CB19 /* LaunchScreen.storyboard */,
+				83286DA61C7C12AB0083CB19 /* Info.plist */,
+			);
+			path = VideoBackgroundSample;
+			sourceTree = "<group>";
+		};
+		83286DAE1C7C12AB0083CB19 /* VideoBackgroundSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				83286DAF1C7C12AB0083CB19 /* VideoBackgroundSampleTests.swift */,
+				83286DB11C7C12AB0083CB19 /* Info.plist */,
+			);
+			path = VideoBackgroundSampleTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +199,41 @@
 			productReference = 83286D841C7C12670083CB19 /* VideoBackgroundViewControllerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		83286D971C7C12AB0083CB19 /* VideoBackgroundSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83286DB21C7C12AB0083CB19 /* Build configuration list for PBXNativeTarget "VideoBackgroundSample" */;
+			buildPhases = (
+				83286D941C7C12AB0083CB19 /* Sources */,
+				83286D951C7C12AB0083CB19 /* Frameworks */,
+				83286D961C7C12AB0083CB19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoBackgroundSample;
+			productName = VideoBackgroundSample;
+			productReference = 83286D981C7C12AB0083CB19 /* VideoBackgroundSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83286DAA1C7C12AB0083CB19 /* VideoBackgroundSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83286DB51C7C12AB0083CB19 /* Build configuration list for PBXNativeTarget "VideoBackgroundSampleTests" */;
+			buildPhases = (
+				83286DA71C7C12AB0083CB19 /* Sources */,
+				83286DA81C7C12AB0083CB19 /* Frameworks */,
+				83286DA91C7C12AB0083CB19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83286DAD1C7C12AB0083CB19 /* PBXTargetDependency */,
+			);
+			name = VideoBackgroundSampleTests;
+			productName = VideoBackgroundSampleTests;
+			productReference = 83286DAB1C7C12AB0083CB19 /* VideoBackgroundSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -152,6 +250,13 @@
 					83286D831C7C12670083CB19 = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
+					83286D971C7C12AB0083CB19 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					83286DAA1C7C12AB0083CB19 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 83286D971C7C12AB0083CB19;
+					};
 				};
 			};
 			buildConfigurationList = 83286D741C7C12670083CB19 /* Build configuration list for PBXProject "VideoBackgroundViewController" */;
@@ -160,6 +265,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 83286D701C7C12670083CB19;
 			productRefGroup = 83286D7B1C7C12670083CB19 /* Products */;
@@ -168,6 +274,8 @@
 			targets = (
 				83286D791C7C12670083CB19 /* VideoBackgroundViewController */,
 				83286D831C7C12670083CB19 /* VideoBackgroundViewControllerTests */,
+				83286D971C7C12AB0083CB19 /* VideoBackgroundSample */,
+				83286DAA1C7C12AB0083CB19 /* VideoBackgroundSampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -181,6 +289,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		83286D821C7C12670083CB19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83286D961C7C12AB0083CB19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83286DA51C7C12AB0083CB19 /* LaunchScreen.storyboard in Resources */,
+				83286DA21C7C12AB0083CB19 /* Assets.xcassets in Resources */,
+				83286DA01C7C12AB0083CB19 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83286DA91C7C12AB0083CB19 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -205,6 +330,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		83286D941C7C12AB0083CB19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83286D9D1C7C12AB0083CB19 /* ViewController.swift in Sources */,
+				83286D9B1C7C12AB0083CB19 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83286DA71C7C12AB0083CB19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83286DB01C7C12AB0083CB19 /* VideoBackgroundSampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -213,7 +355,31 @@
 			target = 83286D791C7C12670083CB19 /* VideoBackgroundViewController */;
 			targetProxy = 83286D861C7C12670083CB19 /* PBXContainerItemProxy */;
 		};
+		83286DAD1C7C12AB0083CB19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83286D971C7C12AB0083CB19 /* VideoBackgroundSample */;
+			targetProxy = 83286DAC1C7C12AB0083CB19 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		83286D9E1C7C12AB0083CB19 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83286D9F1C7C12AB0083CB19 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		83286DA31C7C12AB0083CB19 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83286DA41C7C12AB0083CB19 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		83286D8C1C7C12670083CB19 /* Debug */ = {
@@ -357,6 +523,52 @@
 			};
 			name = Release;
 		};
+		83286DB31C7C12AB0083CB19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VideoBackgroundSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.greenpixels.VideoBackgroundSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		83286DB41C7C12AB0083CB19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VideoBackgroundSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.greenpixels.VideoBackgroundSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		83286DB61C7C12AB0083CB19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VideoBackgroundSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.greenpixels.VideoBackgroundSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoBackgroundSample.app/VideoBackgroundSample";
+			};
+			name = Debug;
+		};
+		83286DB71C7C12AB0083CB19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VideoBackgroundSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.greenpixels.VideoBackgroundSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoBackgroundSample.app/VideoBackgroundSample";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -382,6 +594,22 @@
 			buildConfigurations = (
 				83286D921C7C12670083CB19 /* Debug */,
 				83286D931C7C12670083CB19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		83286DB21C7C12AB0083CB19 /* Build configuration list for PBXNativeTarget "VideoBackgroundSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83286DB31C7C12AB0083CB19 /* Debug */,
+				83286DB41C7C12AB0083CB19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		83286DB51C7C12AB0083CB19 /* Build configuration list for PBXNativeTarget "VideoBackgroundSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83286DB61C7C12AB0083CB19 /* Debug */,
+				83286DB71C7C12AB0083CB19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
