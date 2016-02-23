@@ -18,6 +18,8 @@
 		83286DB91C7C18610083CB19 /* VideoBackgroundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83286DB81C7C18610083CB19 /* VideoBackgroundViewController.swift */; };
 		83286DBB1C7C1C660083CB19 /* VideoScalingMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83286DBA1C7C1C660083CB19 /* VideoScalingMode.swift */; };
 		837B5EF61C7C20E7007C81EE /* VideoBackgroundControllerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837B5EF51C7C20E7007C81EE /* VideoBackgroundControllerSpec.swift */; };
+		837B5EF81C7C2D4B007C81EE /* spotifyVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 837B5EF71C7C2BD6007C81EE /* spotifyVideo.mp4 */; };
+		837B5EF91C7C2D86007C81EE /* VideoBackgroundViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83286D7A1C7C12670083CB19 /* VideoBackgroundViewController.framework */; };
 		B5BB519FEF4E3CA187061F34 /* Pods_VideoBackgroundViewControllerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D53D59BAD7083AE303CCCBA /* Pods_VideoBackgroundViewControllerTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +62,7 @@
 		83286DB81C7C18610083CB19 /* VideoBackgroundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoBackgroundViewController.swift; sourceTree = "<group>"; };
 		83286DBA1C7C1C660083CB19 /* VideoScalingMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoScalingMode.swift; sourceTree = "<group>"; };
 		837B5EF51C7C20E7007C81EE /* VideoBackgroundControllerSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoBackgroundControllerSpec.swift; sourceTree = "<group>"; };
+		837B5EF71C7C2BD6007C81EE /* spotifyVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = spotifyVideo.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				837B5EF91C7C2D86007C81EE /* VideoBackgroundViewController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,6 +135,7 @@
 		83286D7C1C7C12670083CB19 /* VideoBackgroundViewController */ = {
 			isa = PBXGroup;
 			children = (
+				837B5EFA1C7C2FDA007C81EE /* Extensions */,
 				83286D7D1C7C12670083CB19 /* VideoBackgroundViewController.h */,
 				83286D7F1C7C12670083CB19 /* Info.plist */,
 				83286DB81C7C18610083CB19 /* VideoBackgroundViewController.swift */,
@@ -151,6 +156,7 @@
 		83286D991C7C12AB0083CB19 /* VideoBackgroundSample */ = {
 			isa = PBXGroup;
 			children = (
+				837B5EF71C7C2BD6007C81EE /* spotifyVideo.mp4 */,
 				83286D9A1C7C12AB0083CB19 /* AppDelegate.swift */,
 				83286D9C1C7C12AB0083CB19 /* ViewController.swift */,
 				83286D9E1C7C12AB0083CB19 /* Main.storyboard */,
@@ -168,6 +174,13 @@
 				83286DB11C7C12AB0083CB19 /* Info.plist */,
 			);
 			path = VideoBackgroundSampleTests;
+			sourceTree = "<group>";
+		};
+		837B5EFA1C7C2FDA007C81EE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 		D4014D1227F44AB20E68A956 /* Pods */ = {
@@ -332,6 +345,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				837B5EF81C7C2D4B007C81EE /* spotifyVideo.mp4 in Resources */,
 				83286DA51C7C12AB0083CB19 /* LaunchScreen.storyboard in Resources */,
 				83286DA21C7C12AB0083CB19 /* Assets.xcassets in Resources */,
 				83286DA01C7C12AB0083CB19 /* Main.storyboard in Resources */,

@@ -44,7 +44,7 @@ public class VideoBackgroundViewController: UIViewController {
     }
     
     /// Alpha to apply to the video
-    public var alpha: CGFloat = CGFloat(0.0) {
+    public var alpha: CGFloat = CGFloat(1.0) {
         didSet {
             videoPlayer.view.alpha = alpha
         }
@@ -97,6 +97,18 @@ public class VideoBackgroundViewController: UIViewController {
         }
     }
     
+    override public func viewDidLoad() {
+        super.viewDidLoad()
+        
+        videoFrame = view.frame
+        self.videoShouldLoop = true
+        self.alpha = 0.8
+        self.playSound = false
+        self.videoScalingMode = .ResizeAspectFill
+        
+        
+    }
+    
     
     override public func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
@@ -111,9 +123,8 @@ public class VideoBackgroundViewController: UIViewController {
     }
     
 
-    //Remove the observer
+    //Removes the observer
     deinit{
-        
          NSNotificationCenter.defaultCenter().removeObserver(self)
     }
     
