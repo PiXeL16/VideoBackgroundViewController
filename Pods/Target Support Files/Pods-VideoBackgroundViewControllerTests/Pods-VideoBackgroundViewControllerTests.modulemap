@@ -1,6 +1,0 @@
-framework module Pods_VideoBackgroundViewControllerTests {
-  umbrella header "Pods-VideoBackgroundViewControllerTests-umbrella.h"
-
-  export *
-  module * { export * }
-}
