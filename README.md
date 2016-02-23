@@ -4,7 +4,6 @@
 
 # VideoBackgroundViewController
 A View Controller that shows a video in the background, like Spotify!
-Easily setup your Spotify like View Controller
 
 ![VideoBackgroundViewControllerGif](/Web/videoBackgroundViewController.gif)
 
