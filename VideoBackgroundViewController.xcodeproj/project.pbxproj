@@ -19,7 +19,7 @@
 		83286DBB1C7C1C660083CB19 /* VideoScalingMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83286DBA1C7C1C660083CB19 /* VideoScalingMode.swift */; };
 		837B5EF61C7C20E7007C81EE /* VideoBackgroundControllerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837B5EF51C7C20E7007C81EE /* VideoBackgroundControllerSpec.swift */; };
 		837B5EF81C7C2D4B007C81EE /* spotifyVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 837B5EF71C7C2BD6007C81EE /* spotifyVideo.mp4 */; };
-		837B5EF91C7C2D86007C81EE /* VideoBackgroundViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83286D7A1C7C12670083CB19 /* VideoBackgroundViewController.framework */; };
+		837B5EF91C7C2D86007C81EE /* VideoBackgroundViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83286D7A1C7C12670083CB19 /* VideoBackgroundViewController.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		B5BB519FEF4E3CA187061F34 /* Pods_VideoBackgroundViewControllerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D53D59BAD7083AE303CCCBA /* Pods_VideoBackgroundViewControllerTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -632,6 +632,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = VideoBackgroundSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.greenpixels.VideoBackgroundSample;
@@ -643,6 +644,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = VideoBackgroundSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.greenpixels.VideoBackgroundSample;
