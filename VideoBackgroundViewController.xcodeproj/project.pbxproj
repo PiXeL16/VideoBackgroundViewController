@@ -9,13 +9,16 @@
 /* Begin PBXBuildFile section */
 		83286D7E1C7C12670083CB19 /* VideoBackgroundViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 83286D7D1C7C12670083CB19 /* VideoBackgroundViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		83286D851C7C12670083CB19 /* VideoBackgroundViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83286D7A1C7C12670083CB19 /* VideoBackgroundViewController.framework */; };
-		83286D8A1C7C12670083CB19 /* VideoBackgroundViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83286D891C7C12670083CB19 /* VideoBackgroundViewControllerTests.swift */; };
 		83286D9B1C7C12AB0083CB19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83286D9A1C7C12AB0083CB19 /* AppDelegate.swift */; };
 		83286D9D1C7C12AB0083CB19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83286D9C1C7C12AB0083CB19 /* ViewController.swift */; };
 		83286DA01C7C12AB0083CB19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83286D9E1C7C12AB0083CB19 /* Main.storyboard */; };
 		83286DA21C7C12AB0083CB19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83286DA11C7C12AB0083CB19 /* Assets.xcassets */; };
 		83286DA51C7C12AB0083CB19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83286DA31C7C12AB0083CB19 /* LaunchScreen.storyboard */; };
 		83286DB01C7C12AB0083CB19 /* VideoBackgroundSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83286DAF1C7C12AB0083CB19 /* VideoBackgroundSampleTests.swift */; };
+		83286DB91C7C18610083CB19 /* VideoBackgroundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83286DB81C7C18610083CB19 /* VideoBackgroundViewController.swift */; };
+		83286DBB1C7C1C660083CB19 /* VideoScalingMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83286DBA1C7C1C660083CB19 /* VideoScalingMode.swift */; };
+		837B5EF61C7C20E7007C81EE /* VideoBackgroundControllerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837B5EF51C7C20E7007C81EE /* VideoBackgroundControllerSpec.swift */; };
+		B5BB519FEF4E3CA187061F34 /* Pods_VideoBackgroundViewControllerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D53D59BAD7083AE303CCCBA /* Pods_VideoBackgroundViewControllerTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D53D59BAD7083AE303CCCBA /* Pods_VideoBackgroundViewControllerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VideoBackgroundViewControllerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3983DC2E454F9DCA50A81FD5 /* Pods-VideoBackgroundViewControllerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoBackgroundViewControllerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VideoBackgroundViewControllerTests/Pods-VideoBackgroundViewControllerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3FEEE546B34797E03D4C2978 /* Pods-VideoBackgroundViewControllerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoBackgroundViewControllerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VideoBackgroundViewControllerTests/Pods-VideoBackgroundViewControllerTests.release.xcconfig"; sourceTree = "<group>"; };
 		83286D7A1C7C12670083CB19 /* VideoBackgroundViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VideoBackgroundViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		83286D7D1C7C12670083CB19 /* VideoBackgroundViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoBackgroundViewController.h; sourceTree = "<group>"; };
 		83286D7F1C7C12670083CB19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83286D841C7C12670083CB19 /* VideoBackgroundViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoBackgroundViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		83286D891C7C12670083CB19 /* VideoBackgroundViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoBackgroundViewControllerTests.swift; sourceTree = "<group>"; };
 		83286D8B1C7C12670083CB19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83286D981C7C12AB0083CB19 /* VideoBackgroundSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoBackgroundSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83286D9A1C7C12AB0083CB19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -52,6 +57,9 @@
 		83286DAB1C7C12AB0083CB19 /* VideoBackgroundSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoBackgroundSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83286DAF1C7C12AB0083CB19 /* VideoBackgroundSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoBackgroundSampleTests.swift; sourceTree = "<group>"; };
 		83286DB11C7C12AB0083CB19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83286DB81C7C18610083CB19 /* VideoBackgroundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoBackgroundViewController.swift; sourceTree = "<group>"; };
+		83286DBA1C7C1C660083CB19 /* VideoScalingMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoScalingMode.swift; sourceTree = "<group>"; };
+		837B5EF51C7C20E7007C81EE /* VideoBackgroundControllerSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoBackgroundControllerSpec.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +75,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83286D851C7C12670083CB19 /* VideoBackgroundViewController.framework in Frameworks */,
+				B5BB519FEF4E3CA187061F34 /* Pods_VideoBackgroundViewControllerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +96,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		74DE9D732812479CC99AA859 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D53D59BAD7083AE303CCCBA /* Pods_VideoBackgroundViewControllerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		83286D701C7C12670083CB19 = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +112,8 @@
 				83286D991C7C12AB0083CB19 /* VideoBackgroundSample */,
 				83286DAE1C7C12AB0083CB19 /* VideoBackgroundSampleTests */,
 				83286D7B1C7C12670083CB19 /* Products */,
+				D4014D1227F44AB20E68A956 /* Pods */,
+				74DE9D732812479CC99AA859 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -114,6 +133,8 @@
 			children = (
 				83286D7D1C7C12670083CB19 /* VideoBackgroundViewController.h */,
 				83286D7F1C7C12670083CB19 /* Info.plist */,
+				83286DB81C7C18610083CB19 /* VideoBackgroundViewController.swift */,
+				83286DBA1C7C1C660083CB19 /* VideoScalingMode.swift */,
 			);
 			path = VideoBackgroundViewController;
 			sourceTree = "<group>";
@@ -121,8 +142,8 @@
 		83286D881C7C12670083CB19 /* VideoBackgroundViewControllerTests */ = {
 			isa = PBXGroup;
 			children = (
-				83286D891C7C12670083CB19 /* VideoBackgroundViewControllerTests.swift */,
 				83286D8B1C7C12670083CB19 /* Info.plist */,
+				837B5EF51C7C20E7007C81EE /* VideoBackgroundControllerSpec.swift */,
 			);
 			path = VideoBackgroundViewControllerTests;
 			sourceTree = "<group>";
@@ -147,6 +168,15 @@
 				83286DB11C7C12AB0083CB19 /* Info.plist */,
 			);
 			path = VideoBackgroundSampleTests;
+			sourceTree = "<group>";
+		};
+		D4014D1227F44AB20E68A956 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3983DC2E454F9DCA50A81FD5 /* Pods-VideoBackgroundViewControllerTests.debug.xcconfig */,
+				3FEEE546B34797E03D4C2978 /* Pods-VideoBackgroundViewControllerTests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,9 +215,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 83286D911C7C12670083CB19 /* Build configuration list for PBXNativeTarget "VideoBackgroundViewControllerTests" */;
 			buildPhases = (
+				489A0A89FEB0851CA962F806 /* Check Pods Manifest.lock */,
 				83286D801C7C12670083CB19 /* Sources */,
 				83286D811C7C12670083CB19 /* Frameworks */,
 				83286D821C7C12670083CB19 /* Resources */,
+				2EC406C00179F4855C6A57CB /* Embed Pods Frameworks */,
+				A037C6D83F95F8F8DC22F5DF /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -314,11 +347,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2EC406C00179F4855C6A57CB /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VideoBackgroundViewControllerTests/Pods-VideoBackgroundViewControllerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		489A0A89FEB0851CA962F806 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A037C6D83F95F8F8DC22F5DF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VideoBackgroundViewControllerTests/Pods-VideoBackgroundViewControllerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		83286D751C7C12670083CB19 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83286DB91C7C18610083CB19 /* VideoBackgroundViewController.swift in Sources */,
+				83286DBB1C7C1C660083CB19 /* VideoScalingMode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,7 +409,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83286D8A1C7C12670083CB19 /* VideoBackgroundViewControllerTests.swift in Sources */,
+				837B5EF61C7C20E7007C81EE /* VideoBackgroundControllerSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +557,7 @@
 		83286D8F1C7C12670083CB19 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -484,12 +568,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.greenpixels.VideoBackgroundViewController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		83286D901C7C12670083CB19 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -505,17 +591,22 @@
 		};
 		83286D921C7C12670083CB19 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3983DC2E454F9DCA50A81FD5 /* Pods-VideoBackgroundViewControllerTests.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = VideoBackgroundViewControllerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.greenpixels.VideoBackgroundViewControllerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		83286D931C7C12670083CB19 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FEEE546B34797E03D4C2978 /* Pods-VideoBackgroundViewControllerTests.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = VideoBackgroundViewControllerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.greenpixels.VideoBackgroundViewControllerTests;
@@ -588,6 +679,7 @@
 				83286D901C7C12670083CB19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83286D911C7C12670083CB19 /* Build configuration list for PBXNativeTarget "VideoBackgroundViewControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -596,6 +688,7 @@
 				83286D931C7C12670083CB19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83286DB21C7C12AB0083CB19 /* Build configuration list for PBXNativeTarget "VideoBackgroundSample" */ = {
 			isa = XCConfigurationList;
@@ -604,6 +697,7 @@
 				83286DB41C7C12AB0083CB19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83286DB51C7C12AB0083CB19 /* Build configuration list for PBXNativeTarget "VideoBackgroundSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -612,6 +706,7 @@
 				83286DB71C7C12AB0083CB19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
