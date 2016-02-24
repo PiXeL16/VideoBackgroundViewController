@@ -110,6 +110,11 @@ public class VideoBackgroundViewController: UIViewController {
     }
     
     
+    /**
+     Delegate when the view will appear
+     
+     - parameter animated: It it appears animated or not
+     */
     override public func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
         //Sets the frame
