@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		77BAC0C30A2377850BB587B8 /* Pods_VideoBackgroundSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F99BC50D334DAA3D3A520FD4 /* Pods_VideoBackgroundSample.framework */; };
+		771A86D05E6970E618B2B634 /* Pods_VideoBackgroundViewControllerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89A6B2046ADA63351FF4E796 /* Pods_VideoBackgroundViewControllerTests.framework */; };
 		83286D7E1C7C12670083CB19 /* VideoBackgroundViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 83286D7D1C7C12670083CB19 /* VideoBackgroundViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		83286D851C7C12670083CB19 /* VideoBackgroundViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83286D7A1C7C12670083CB19 /* VideoBackgroundViewController.framework */; };
 		83286D9B1C7C12AB0083CB19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83286D9A1C7C12AB0083CB19 /* AppDelegate.swift */; };
@@ -20,7 +20,7 @@
 		83286DBB1C7C1C660083CB19 /* VideoScalingMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83286DBA1C7C1C660083CB19 /* VideoScalingMode.swift */; };
 		837B5EF61C7C20E7007C81EE /* VideoBackgroundControllerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837B5EF51C7C20E7007C81EE /* VideoBackgroundControllerSpec.swift */; };
 		837B5EF81C7C2D4B007C81EE /* spotifyVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 837B5EF71C7C2BD6007C81EE /* spotifyVideo.mp4 */; };
-		B5BB519FEF4E3CA187061F34 /* Pods_VideoBackgroundViewControllerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D53D59BAD7083AE303CCCBA /* Pods_VideoBackgroundViewControllerTests.framework */; };
+		837B5EFD1C7D8AA7007C81EE /* VideoBackgroundViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83286D7A1C7C12670083CB19 /* VideoBackgroundViewController.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,9 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1D53D59BAD7083AE303CCCBA /* Pods_VideoBackgroundViewControllerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VideoBackgroundViewControllerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3983DC2E454F9DCA50A81FD5 /* Pods-VideoBackgroundViewControllerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoBackgroundViewControllerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VideoBackgroundViewControllerTests/Pods-VideoBackgroundViewControllerTests.debug.xcconfig"; sourceTree = "<group>"; };
-		3FEEE546B34797E03D4C2978 /* Pods-VideoBackgroundViewControllerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoBackgroundViewControllerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VideoBackgroundViewControllerTests/Pods-VideoBackgroundViewControllerTests.release.xcconfig"; sourceTree = "<group>"; };
+		09DDEEC7393C9741D7688C82 /* Pods-VideoBackgroundViewControllerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoBackgroundViewControllerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VideoBackgroundViewControllerTests/Pods-VideoBackgroundViewControllerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		83286D7A1C7C12670083CB19 /* VideoBackgroundViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VideoBackgroundViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		83286D7D1C7C12670083CB19 /* VideoBackgroundViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoBackgroundViewController.h; sourceTree = "<group>"; };
 		83286D7F1C7C12670083CB19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -63,9 +61,8 @@
 		83286DBA1C7C1C660083CB19 /* VideoScalingMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoScalingMode.swift; sourceTree = "<group>"; };
 		837B5EF51C7C20E7007C81EE /* VideoBackgroundControllerSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoBackgroundControllerSpec.swift; sourceTree = "<group>"; };
 		837B5EF71C7C2BD6007C81EE /* spotifyVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = spotifyVideo.mp4; sourceTree = "<group>"; };
-		B225A40AC39D00E3B1953357 /* Pods-VideoBackgroundSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoBackgroundSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VideoBackgroundSample/Pods-VideoBackgroundSample.debug.xcconfig"; sourceTree = "<group>"; };
-		D182A00665123E2A0110C2C4 /* Pods-VideoBackgroundSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoBackgroundSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-VideoBackgroundSample/Pods-VideoBackgroundSample.release.xcconfig"; sourceTree = "<group>"; };
-		F99BC50D334DAA3D3A520FD4 /* Pods_VideoBackgroundSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VideoBackgroundSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89A6B2046ADA63351FF4E796 /* Pods_VideoBackgroundViewControllerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VideoBackgroundViewControllerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BADF30561D5765479F117D06 /* Pods-VideoBackgroundViewControllerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoBackgroundViewControllerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VideoBackgroundViewControllerTests/Pods-VideoBackgroundViewControllerTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +78,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83286D851C7C12670083CB19 /* VideoBackgroundViewController.framework in Frameworks */,
-				B5BB519FEF4E3CA187061F34 /* Pods_VideoBackgroundViewControllerTests.framework in Frameworks */,
+				771A86D05E6970E618B2B634 /* Pods_VideoBackgroundViewControllerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,7 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77BAC0C30A2377850BB587B8 /* Pods_VideoBackgroundSample.framework in Frameworks */,
+				837B5EFD1C7D8AA7007C81EE /* VideoBackgroundViewController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,11 +100,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		74DE9D732812479CC99AA859 /* Frameworks */ = {
+		3BCAACA53832F6111F153F4D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1D53D59BAD7083AE303CCCBA /* Pods_VideoBackgroundViewControllerTests.framework */,
-				F99BC50D334DAA3D3A520FD4 /* Pods_VideoBackgroundSample.framework */,
+				09DDEEC7393C9741D7688C82 /* Pods-VideoBackgroundViewControllerTests.debug.xcconfig */,
+				BADF30561D5765479F117D06 /* Pods-VideoBackgroundViewControllerTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5A0A5FCD107B065271FDA294 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89A6B2046ADA63351FF4E796 /* Pods_VideoBackgroundViewControllerTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -120,8 +125,8 @@
 				83286D991C7C12AB0083CB19 /* VideoBackgroundSample */,
 				83286DAE1C7C12AB0083CB19 /* VideoBackgroundSampleTests */,
 				83286D7B1C7C12670083CB19 /* Products */,
-				D4014D1227F44AB20E68A956 /* Pods */,
-				74DE9D732812479CC99AA859 /* Frameworks */,
+				3BCAACA53832F6111F153F4D /* Pods */,
+				5A0A5FCD107B065271FDA294 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -187,17 +192,6 @@
 			name = Extensions;
 			sourceTree = "<group>";
 		};
-		D4014D1227F44AB20E68A956 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3983DC2E454F9DCA50A81FD5 /* Pods-VideoBackgroundViewControllerTests.debug.xcconfig */,
-				3FEEE546B34797E03D4C2978 /* Pods-VideoBackgroundViewControllerTests.release.xcconfig */,
-				B225A40AC39D00E3B1953357 /* Pods-VideoBackgroundSample.debug.xcconfig */,
-				D182A00665123E2A0110C2C4 /* Pods-VideoBackgroundSample.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -234,12 +228,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 83286D911C7C12670083CB19 /* Build configuration list for PBXNativeTarget "VideoBackgroundViewControllerTests" */;
 			buildPhases = (
-				489A0A89FEB0851CA962F806 /* Check Pods Manifest.lock */,
+				61C5A16371474C0E05B212F7 /* Check Pods Manifest.lock */,
 				83286D801C7C12670083CB19 /* Sources */,
 				83286D811C7C12670083CB19 /* Frameworks */,
 				83286D821C7C12670083CB19 /* Resources */,
-				2EC406C00179F4855C6A57CB /* Embed Pods Frameworks */,
-				A037C6D83F95F8F8DC22F5DF /* Copy Pods Resources */,
+				D23DED96DF6CB793F6066123 /* Embed Pods Frameworks */,
+				E9C65A1AC0206CC687EB82DC /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -255,12 +249,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 83286DB21C7C12AB0083CB19 /* Build configuration list for PBXNativeTarget "VideoBackgroundSample" */;
 			buildPhases = (
-				54FA1C9D0661D12EF2067961 /* Check Pods Manifest.lock */,
 				83286D941C7C12AB0083CB19 /* Sources */,
 				83286D951C7C12AB0083CB19 /* Frameworks */,
 				83286D961C7C12AB0083CB19 /* Resources */,
-				0A964AE977FEBC4065E64D57 /* Embed Pods Frameworks */,
-				EA92251BDAA433E0CC30447B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -371,22 +362,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0A964AE977FEBC4065E64D57 /* Embed Pods Frameworks */ = {
+		61C5A16371474C0E05B212F7 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VideoBackgroundSample/Pods-VideoBackgroundSample-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		2EC406C00179F4855C6A57CB /* Embed Pods Frameworks */ = {
+		D23DED96DF6CB793F6066123 /* Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -401,37 +392,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VideoBackgroundViewControllerTests/Pods-VideoBackgroundViewControllerTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		489A0A89FEB0851CA962F806 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		54FA1C9D0661D12EF2067961 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		A037C6D83F95F8F8DC22F5DF /* Copy Pods Resources */ = {
+		E9C65A1AC0206CC687EB82DC /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -444,21 +405,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VideoBackgroundViewControllerTests/Pods-VideoBackgroundViewControllerTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EA92251BDAA433E0CC30447B /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VideoBackgroundSample/Pods-VideoBackgroundSample-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -659,7 +605,7 @@
 		};
 		83286D921C7C12670083CB19 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3983DC2E454F9DCA50A81FD5 /* Pods-VideoBackgroundViewControllerTests.debug.xcconfig */;
+			baseConfigurationReference = 09DDEEC7393C9741D7688C82 /* Pods-VideoBackgroundViewControllerTests.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = VideoBackgroundViewControllerTests/Info.plist;
@@ -672,7 +618,7 @@
 		};
 		83286D931C7C12670083CB19 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3FEEE546B34797E03D4C2978 /* Pods-VideoBackgroundViewControllerTests.release.xcconfig */;
+			baseConfigurationReference = BADF30561D5765479F117D06 /* Pods-VideoBackgroundViewControllerTests.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = VideoBackgroundViewControllerTests/Info.plist;
@@ -684,7 +630,6 @@
 		};
 		83286DB31C7C12AB0083CB19 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B225A40AC39D00E3B1953357 /* Pods-VideoBackgroundSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ENABLE_BITCODE = YES;
@@ -697,7 +642,6 @@
 		};
 		83286DB41C7C12AB0083CB19 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D182A00665123E2A0110C2C4 /* Pods-VideoBackgroundSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ENABLE_BITCODE = YES;

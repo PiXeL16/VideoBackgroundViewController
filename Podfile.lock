@@ -1,16 +1,13 @@
 PODS:
   - Nimble (3.0.0)
   - Quick (0.8.0)
-  - VideoBackgroundViewController (0.0.1)
 
 DEPENDENCIES:
   - Nimble (~> 3.0.0)
   - Quick (~> 0.8.0)
-  - VideoBackgroundViewController
 
 SPEC CHECKSUMS:
   Nimble: 4c353d43735b38b545cbb4cb91504588eb5de926
   Quick: 563d0f6ec5f72e394645adb377708639b7dd38ab
-  VideoBackgroundViewController: efed05b6038bfa5876f96daca482dd0175f5278b
 
 COCOAPODS: 0.39.0
