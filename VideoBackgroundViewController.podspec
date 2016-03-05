@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "VideoBackgroundViewController"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "A View Controller that shows a video in the background, like Spotify"
   s.description  = <<-DESC
     A View Controller that shows a video in the background, like Spotify, written in Swift
