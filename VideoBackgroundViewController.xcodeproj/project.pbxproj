@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		771A86D05E6970E618B2B634 /* Pods_VideoBackgroundViewControllerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89A6B2046ADA63351FF4E796 /* Pods_VideoBackgroundViewControllerTests.framework */; };
+		5CC1C46734D9B619A7BDADE9 /* Pods_VideoBackgroundViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF977946FE717F7E0BA46E6 /* Pods_VideoBackgroundViewController.framework */; };
 		83286D7E1C7C12670083CB19 /* VideoBackgroundViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 83286D7D1C7C12670083CB19 /* VideoBackgroundViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		83286D851C7C12670083CB19 /* VideoBackgroundViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83286D7A1C7C12670083CB19 /* VideoBackgroundViewController.framework */; };
 		83286D9B1C7C12AB0083CB19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83286D9A1C7C12AB0083CB19 /* AppDelegate.swift */; };
@@ -21,6 +21,9 @@
 		837B5EF61C7C20E7007C81EE /* VideoBackgroundControllerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837B5EF51C7C20E7007C81EE /* VideoBackgroundControllerSpec.swift */; };
 		837B5EF81C7C2D4B007C81EE /* spotifyVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 837B5EF71C7C2BD6007C81EE /* spotifyVideo.mp4 */; };
 		837B5EFD1C7D8AA7007C81EE /* VideoBackgroundViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83286D7A1C7C12670083CB19 /* VideoBackgroundViewController.framework */; };
+		9B39717B80E92AC1B74CBE3E /* Pods_VideoBackgroundViewControllerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 905545B0DB0E0B8F4E532CBB /* Pods_VideoBackgroundViewControllerTests.framework */; };
+		B806160DF0F717F1227F09C5 /* Pods_VideoBackgroundSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C877AE5912077C30AAA649C /* Pods_VideoBackgroundSample.framework */; };
+		B86C93A5B096ED00DCD432E2 /* Pods_VideoBackgroundSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D83B75C36FE40E75626CCC4 /* Pods_VideoBackgroundSampleTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +44,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		09DDEEC7393C9741D7688C82 /* Pods-VideoBackgroundViewControllerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoBackgroundViewControllerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VideoBackgroundViewControllerTests/Pods-VideoBackgroundViewControllerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0CCAD3D7AAF842733FABE151 /* Pods-VideoBackgroundSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoBackgroundSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VideoBackgroundSample/Pods-VideoBackgroundSample.debug.xcconfig"; sourceTree = "<group>"; };
+		2C877AE5912077C30AAA649C /* Pods_VideoBackgroundSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VideoBackgroundSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D83B75C36FE40E75626CCC4 /* Pods_VideoBackgroundSampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VideoBackgroundSampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E5029A4A2A75EA9094869B7 /* Pods-VideoBackgroundViewControllerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoBackgroundViewControllerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VideoBackgroundViewControllerTests/Pods-VideoBackgroundViewControllerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		73E8AC5742EFADD3CC2F69CF /* Pods-VideoBackgroundViewControllerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoBackgroundViewControllerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VideoBackgroundViewControllerTests/Pods-VideoBackgroundViewControllerTests.release.xcconfig"; sourceTree = "<group>"; };
 		83286D7A1C7C12670083CB19 /* VideoBackgroundViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VideoBackgroundViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		83286D7D1C7C12670083CB19 /* VideoBackgroundViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoBackgroundViewController.h; sourceTree = "<group>"; };
 		83286D7F1C7C12670083CB19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -61,8 +68,13 @@
 		83286DBA1C7C1C660083CB19 /* VideoScalingMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoScalingMode.swift; sourceTree = "<group>"; };
 		837B5EF51C7C20E7007C81EE /* VideoBackgroundControllerSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoBackgroundControllerSpec.swift; sourceTree = "<group>"; };
 		837B5EF71C7C2BD6007C81EE /* spotifyVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = spotifyVideo.mp4; sourceTree = "<group>"; };
-		89A6B2046ADA63351FF4E796 /* Pods_VideoBackgroundViewControllerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VideoBackgroundViewControllerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BADF30561D5765479F117D06 /* Pods-VideoBackgroundViewControllerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoBackgroundViewControllerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VideoBackgroundViewControllerTests/Pods-VideoBackgroundViewControllerTests.release.xcconfig"; sourceTree = "<group>"; };
+		905545B0DB0E0B8F4E532CBB /* Pods_VideoBackgroundViewControllerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VideoBackgroundViewControllerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3AD2E50D1EA27114A2E06B7 /* Pods-VideoBackgroundSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoBackgroundSampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VideoBackgroundSampleTests/Pods-VideoBackgroundSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C42A5016E55AAC206157B3EE /* Pods-VideoBackgroundViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoBackgroundViewController.release.xcconfig"; path = "Pods/Target Support Files/Pods-VideoBackgroundViewController/Pods-VideoBackgroundViewController.release.xcconfig"; sourceTree = "<group>"; };
+		EAF977946FE717F7E0BA46E6 /* Pods_VideoBackgroundViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VideoBackgroundViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFA51B51CCDD01F791D09E08 /* Pods-VideoBackgroundSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoBackgroundSampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VideoBackgroundSampleTests/Pods-VideoBackgroundSampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		FBC78DE0150385128DA4D76E /* Pods-VideoBackgroundSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoBackgroundSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-VideoBackgroundSample/Pods-VideoBackgroundSample.release.xcconfig"; sourceTree = "<group>"; };
+		FCEF73A73E4EF7FDDE4CB730 /* Pods-VideoBackgroundViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoBackgroundViewController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VideoBackgroundViewController/Pods-VideoBackgroundViewController.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CC1C46734D9B619A7BDADE9 /* Pods_VideoBackgroundViewController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,7 +91,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83286D851C7C12670083CB19 /* VideoBackgroundViewController.framework in Frameworks */,
-				771A86D05E6970E618B2B634 /* Pods_VideoBackgroundViewControllerTests.framework in Frameworks */,
+				9B39717B80E92AC1B74CBE3E /* Pods_VideoBackgroundViewControllerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +100,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				837B5EFD1C7D8AA7007C81EE /* VideoBackgroundViewController.framework in Frameworks */,
+				B806160DF0F717F1227F09C5 /* Pods_VideoBackgroundSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,25 +108,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B86C93A5B096ED00DCD432E2 /* Pods_VideoBackgroundSampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3BCAACA53832F6111F153F4D /* Pods */ = {
+		1947342467DF054D0A8E92FE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				09DDEEC7393C9741D7688C82 /* Pods-VideoBackgroundViewControllerTests.debug.xcconfig */,
-				BADF30561D5765479F117D06 /* Pods-VideoBackgroundViewControllerTests.release.xcconfig */,
+				0CCAD3D7AAF842733FABE151 /* Pods-VideoBackgroundSample.debug.xcconfig */,
+				FBC78DE0150385128DA4D76E /* Pods-VideoBackgroundSample.release.xcconfig */,
+				B3AD2E50D1EA27114A2E06B7 /* Pods-VideoBackgroundSampleTests.debug.xcconfig */,
+				EFA51B51CCDD01F791D09E08 /* Pods-VideoBackgroundSampleTests.release.xcconfig */,
+				FCEF73A73E4EF7FDDE4CB730 /* Pods-VideoBackgroundViewController.debug.xcconfig */,
+				C42A5016E55AAC206157B3EE /* Pods-VideoBackgroundViewController.release.xcconfig */,
+				2E5029A4A2A75EA9094869B7 /* Pods-VideoBackgroundViewControllerTests.debug.xcconfig */,
+				73E8AC5742EFADD3CC2F69CF /* Pods-VideoBackgroundViewControllerTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		5A0A5FCD107B065271FDA294 /* Frameworks */ = {
+		5B8BC47943F1078487CE808C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				89A6B2046ADA63351FF4E796 /* Pods_VideoBackgroundViewControllerTests.framework */,
+				2C877AE5912077C30AAA649C /* Pods_VideoBackgroundSample.framework */,
+				2D83B75C36FE40E75626CCC4 /* Pods_VideoBackgroundSampleTests.framework */,
+				EAF977946FE717F7E0BA46E6 /* Pods_VideoBackgroundViewController.framework */,
+				905545B0DB0E0B8F4E532CBB /* Pods_VideoBackgroundViewControllerTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -125,8 +149,8 @@
 				83286D991C7C12AB0083CB19 /* VideoBackgroundSample */,
 				83286DAE1C7C12AB0083CB19 /* VideoBackgroundSampleTests */,
 				83286D7B1C7C12670083CB19 /* Products */,
-				3BCAACA53832F6111F153F4D /* Pods */,
-				5A0A5FCD107B065271FDA294 /* Frameworks */,
+				1947342467DF054D0A8E92FE /* Pods */,
+				5B8BC47943F1078487CE808C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -210,10 +234,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 83286D8E1C7C12670083CB19 /* Build configuration list for PBXNativeTarget "VideoBackgroundViewController" */;
 			buildPhases = (
+				82CD4FDFE1ADC12B1A5B0334 /* [CP] Check Pods Manifest.lock */,
 				83286D751C7C12670083CB19 /* Sources */,
 				83286D761C7C12670083CB19 /* Frameworks */,
 				83286D771C7C12670083CB19 /* Headers */,
 				83286D781C7C12670083CB19 /* Resources */,
+				3B70F6DA295FB539C7370926 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -228,12 +254,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 83286D911C7C12670083CB19 /* Build configuration list for PBXNativeTarget "VideoBackgroundViewControllerTests" */;
 			buildPhases = (
-				61C5A16371474C0E05B212F7 /* Check Pods Manifest.lock */,
+				52D38F2433F9914772365AA6 /* [CP] Check Pods Manifest.lock */,
 				83286D801C7C12670083CB19 /* Sources */,
 				83286D811C7C12670083CB19 /* Frameworks */,
 				83286D821C7C12670083CB19 /* Resources */,
-				D23DED96DF6CB793F6066123 /* Embed Pods Frameworks */,
-				E9C65A1AC0206CC687EB82DC /* Copy Pods Resources */,
+				ABF4572A5573DBDD9E7C4F9F /* [CP] Embed Pods Frameworks */,
+				B7753C1689C64E3A65AE5229 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -249,9 +275,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 83286DB21C7C12AB0083CB19 /* Build configuration list for PBXNativeTarget "VideoBackgroundSample" */;
 			buildPhases = (
+				2B8D1040C27E112EAB127A01 /* [CP] Check Pods Manifest.lock */,
 				83286D941C7C12AB0083CB19 /* Sources */,
 				83286D951C7C12AB0083CB19 /* Frameworks */,
 				83286D961C7C12AB0083CB19 /* Resources */,
+				7640D29C7BA6C6A21E2519FE /* [CP] Embed Pods Frameworks */,
+				9CFCFFE18042F2D3E4765098 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -266,9 +295,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 83286DB51C7C12AB0083CB19 /* Build configuration list for PBXNativeTarget "VideoBackgroundSampleTests" */;
 			buildPhases = (
+				9B73118D4C3EE01CE0EE9D95 /* [CP] Check Pods Manifest.lock */,
 				83286DA71C7C12AB0083CB19 /* Sources */,
 				83286DA81C7C12AB0083CB19 /* Frameworks */,
 				83286DA91C7C12AB0083CB19 /* Resources */,
+				6090D9738F5E2103D6ED1EDA /* [CP] Embed Pods Frameworks */,
+				6220F535B4AE7843F58BCD1C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -287,20 +319,24 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Chris Jimenez";
 				TargetAttributes = {
 					83286D791C7C12670083CB19 = {
 						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0830;
 					};
 					83286D831C7C12670083CB19 = {
 						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0830;
 					};
 					83286D971C7C12AB0083CB19 = {
 						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0830;
 					};
 					83286DAA1C7C12AB0083CB19 = {
 						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0830;
 						TestTargetID = 83286D971C7C12AB0083CB19;
 					};
 				};
@@ -362,29 +398,149 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		61C5A16371474C0E05B212F7 /* Check Pods Manifest.lock */ = {
+		2B8D1040C27E112EAB127A01 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		D23DED96DF6CB793F6066123 /* Embed Pods Frameworks */ = {
+		3B70F6DA295FB539C7370926 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VideoBackgroundViewController/Pods-VideoBackgroundViewController-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52D38F2433F9914772365AA6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6090D9738F5E2103D6ED1EDA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VideoBackgroundSampleTests/Pods-VideoBackgroundSampleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6220F535B4AE7843F58BCD1C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VideoBackgroundSampleTests/Pods-VideoBackgroundSampleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7640D29C7BA6C6A21E2519FE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VideoBackgroundSample/Pods-VideoBackgroundSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82CD4FDFE1ADC12B1A5B0334 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9B73118D4C3EE01CE0EE9D95 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9CFCFFE18042F2D3E4765098 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VideoBackgroundSample/Pods-VideoBackgroundSample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABF4572A5573DBDD9E7C4F9F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -392,14 +548,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VideoBackgroundViewControllerTests/Pods-VideoBackgroundViewControllerTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E9C65A1AC0206CC687EB82DC /* Copy Pods Resources */ = {
+		B7753C1689C64E3A65AE5229 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -492,8 +648,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -540,8 +698,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -561,6 +721,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -570,8 +731,10 @@
 		};
 		83286D8F1C7C12670083CB19 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCEF73A73E4EF7FDDE4CB730 /* Pods-VideoBackgroundViewController.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -583,13 +746,16 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		83286D901C7C12670083CB19 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C42A5016E55AAC206157B3EE /* Pods-VideoBackgroundViewController.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -600,12 +766,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.greenpixels.VideoBackgroundViewController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		83286D921C7C12670083CB19 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 09DDEEC7393C9741D7688C82 /* Pods-VideoBackgroundViewControllerTests.debug.xcconfig */;
+			baseConfigurationReference = 2E5029A4A2A75EA9094869B7 /* Pods-VideoBackgroundViewControllerTests.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = VideoBackgroundViewControllerTests/Info.plist;
@@ -613,23 +780,26 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.greenpixels.VideoBackgroundViewControllerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		83286D931C7C12670083CB19 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BADF30561D5765479F117D06 /* Pods-VideoBackgroundViewControllerTests.release.xcconfig */;
+			baseConfigurationReference = 73E8AC5742EFADD3CC2F69CF /* Pods-VideoBackgroundViewControllerTests.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = VideoBackgroundViewControllerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.greenpixels.VideoBackgroundViewControllerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		83286DB31C7C12AB0083CB19 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CCAD3D7AAF842733FABE151 /* Pods-VideoBackgroundSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ENABLE_BITCODE = YES;
@@ -638,11 +808,13 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.greenpixels.VideoBackgroundSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		83286DB41C7C12AB0083CB19 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBC78DE0150385128DA4D76E /* Pods-VideoBackgroundSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ENABLE_BITCODE = YES;
@@ -651,29 +823,34 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.greenpixels.VideoBackgroundSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		83286DB61C7C12AB0083CB19 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3AD2E50D1EA27114A2E06B7 /* Pods-VideoBackgroundSampleTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = VideoBackgroundSampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.greenpixels.VideoBackgroundSampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoBackgroundSample.app/VideoBackgroundSample";
 			};
 			name = Debug;
 		};
 		83286DB71C7C12AB0083CB19 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFA51B51CCDD01F791D09E08 /* Pods-VideoBackgroundSampleTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = VideoBackgroundSampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.greenpixels.VideoBackgroundSampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoBackgroundSample.app/VideoBackgroundSample";
 			};
 			name = Release;
