@@ -24,6 +24,8 @@
 		9B39717B80E92AC1B74CBE3E /* Pods_VideoBackgroundViewControllerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 905545B0DB0E0B8F4E532CBB /* Pods_VideoBackgroundViewControllerTests.framework */; };
 		B806160DF0F717F1227F09C5 /* Pods_VideoBackgroundSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C877AE5912077C30AAA649C /* Pods_VideoBackgroundSample.framework */; };
 		B86C93A5B096ED00DCD432E2 /* Pods_VideoBackgroundSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D83B75C36FE40E75626CCC4 /* Pods_VideoBackgroundSampleTests.framework */; };
+		CF3138971ED6C59B00702BC8 /* VideoBackgroundViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83286D7A1C7C12670083CB19 /* VideoBackgroundViewController.framework */; };
+		CF3138981ED6C59B00702BC8 /* VideoBackgroundViewController.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 83286D7A1C7C12670083CB19 /* VideoBackgroundViewController.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +43,28 @@
 			remoteGlobalIDString = 83286D971C7C12AB0083CB19;
 			remoteInfo = VideoBackgroundSample;
 		};
+		CF3138991ED6C59B00702BC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83286D711C7C12670083CB19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83286D791C7C12670083CB19;
+			remoteInfo = VideoBackgroundViewController;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CF31389B1ED6C59B00702BC8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CF3138981ED6C59B00702BC8 /* VideoBackgroundViewController.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0CCAD3D7AAF842733FABE151 /* Pods-VideoBackgroundSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoBackgroundSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VideoBackgroundSample/Pods-VideoBackgroundSample.debug.xcconfig"; sourceTree = "<group>"; };
@@ -100,6 +123,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				837B5EFD1C7D8AA7007C81EE /* VideoBackgroundViewController.framework in Frameworks */,
+				CF3138971ED6C59B00702BC8 /* VideoBackgroundViewController.framework in Frameworks */,
 				B806160DF0F717F1227F09C5 /* Pods_VideoBackgroundSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,10 +305,12 @@
 				83286D961C7C12AB0083CB19 /* Resources */,
 				7640D29C7BA6C6A21E2519FE /* [CP] Embed Pods Frameworks */,
 				9CFCFFE18042F2D3E4765098 /* [CP] Copy Pods Resources */,
+				CF31389B1ED6C59B00702BC8 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				CF31389A1ED6C59B00702BC8 /* PBXTargetDependency */,
 			);
 			name = VideoBackgroundSample;
 			productName = VideoBackgroundSample;
@@ -613,6 +639,11 @@
 			target = 83286D971C7C12AB0083CB19 /* VideoBackgroundSample */;
 			targetProxy = 83286DAC1C7C12AB0083CB19 /* PBXContainerItemProxy */;
 		};
+		CF31389A1ED6C59B00702BC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83286D791C7C12670083CB19 /* VideoBackgroundViewController */;
+			targetProxy = CF3138991ED6C59B00702BC8 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -801,7 +832,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0CCAD3D7AAF842733FABE151 /* Pods-VideoBackgroundSample.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = VideoBackgroundSample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
@@ -816,7 +849,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FBC78DE0150385128DA4D76E /* Pods-VideoBackgroundSample.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = VideoBackgroundSample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
