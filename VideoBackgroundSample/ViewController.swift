@@ -25,7 +25,7 @@ class ViewController: VideoBackgroundViewController {
     func setVideo()
     {
         
-            let url = NSURL.fileURLWithPath(NSBundle.mainBundle().pathForResource("spotifyVideo", ofType: "mp4")!)
+            let url = URL(fileURLWithPath: Bundle.main.path(forResource: "spotifyVideo", ofType: "mp4")!)
             
             self.videoURL = url
 //            view.userInteractionEnabled = false
@@ -33,8 +33,8 @@ class ViewController: VideoBackgroundViewController {
     }
     
     
-    override func preferredStatusBarStyle() -> UIStatusBarStyle {
-        return UIStatusBarStyle.LightContent
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
     }
 
 

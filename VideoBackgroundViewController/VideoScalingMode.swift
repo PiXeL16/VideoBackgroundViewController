@@ -17,7 +17,7 @@ import Foundation
  - ResizeAspectFill: Resize and fill
  */
 public enum VideoScalingMode {
-    case Resize
-    case ResizeAspect
-    case ResizeAspectFill
+    case resize
+    case resizeAspect
+    case resizeAspectFill
 }

@@ -12,14 +12,14 @@ import MediaPlayer
 import AVKit
 
 /// Class that shows a video in the backgroun of the view controller
-public class VideoBackgroundViewController: UIViewController {
+open class VideoBackgroundViewController: UIViewController {
     
     /// The video player to use for the video in the background
-    public let videoPlayer: AVPlayerViewController = AVPlayerViewController()
+    open let videoPlayer: AVPlayerViewController = AVPlayerViewController()
     // The sound level of hte video
-    public var soundLevel: Float = 1.0
+    open var soundLevel: Float = 1.0
     // If the video should have sound or not
-    public var playSound: Bool = true {
+    open var playSound: Bool = true {
         
         didSet{
             if playSound {
@@ -32,11 +32,11 @@ public class VideoBackgroundViewController: UIViewController {
     }
     
     //The URL of the video to play
-    public var videoURL: NSURL = NSURL(){
+    open var videoURL: URL! {
         
         didSet{
             
-            videoPlayer.player = AVPlayer(URL: videoURL)
+            videoPlayer.player = AVPlayer(url: videoURL)
             videoPlayer.player?.volume = self.soundLevel
             videoPlayer.player?.play()
             
@@ -44,7 +44,7 @@ public class VideoBackgroundViewController: UIViewController {
     }
     
     /// Alpha to apply to the video
-    public var alpha: CGFloat = CGFloat(1.0) {
+    open var alpha: CGFloat = CGFloat(1.0) {
         didSet {
             videoPlayer.view.alpha = alpha
         }
@@ -52,13 +52,13 @@ public class VideoBackgroundViewController: UIViewController {
     
     
     /// If the video will loop or not
-    public var videoShouldLoop: Bool = true {
+    open var videoShouldLoop: Bool = true {
         
         didSet {
             if videoShouldLoop {
-                NSNotificationCenter.defaultCenter().addObserver(self,
-                    selector: "videoPlayerItemDidReachEnd",
-                    name: AVPlayerItemDidPlayToEndTimeNotification,
+                NotificationCenter.default.addObserver(self,
+                    selector: #selector(VideoBackgroundViewController.videoPlayerItemDidReachEnd),
+                    name: NSNotification.Name.AVPlayerItemDidPlayToEndTime,
                     object: videoPlayer.player?.currentItem)
             }
         }
@@ -68,19 +68,19 @@ public class VideoBackgroundViewController: UIViewController {
      Gets trigger when the video goes to the end, 
      */
     func videoPlayerItemDidReachEnd() {
-        videoPlayer.player?.seekToTime(kCMTimeZero)
+        videoPlayer.player?.seek(to: kCMTimeZero)
         videoPlayer.player?.play()
     }
     
     /// The aspect scaling mode of the video, defaults to ResizeAspectFill
-    public var videoScalingMode: VideoScalingMode = .ResizeAspectFill {
+    open var videoScalingMode: VideoScalingMode = .resizeAspectFill {
         didSet {
             switch videoScalingMode {
-            case .Resize:
+            case .resize:
                 videoPlayer.videoGravity = AVLayerVideoGravityResize
-            case .ResizeAspect:
+            case .resizeAspect:
                 videoPlayer.videoGravity = AVLayerVideoGravityResizeAspect
-            case .ResizeAspectFill:
+            case .resizeAspectFill:
                 videoPlayer.videoGravity = AVLayerVideoGravityResizeAspectFill
             }
         }
@@ -88,23 +88,23 @@ public class VideoBackgroundViewController: UIViewController {
     
     
     /// The frame size of the video
-    public var videoFrame: CGRect = CGRect()
+    open var videoFrame: CGRect = CGRect()
     
     //The background color of the video
-    public var backgroundColor: UIColor = UIColor.blackColor() {
+    open var backgroundColor: UIColor = UIColor.black {
         didSet {
             view.backgroundColor = backgroundColor
         }
     }
     
-    override public func viewDidLoad() {
+    override open func viewDidLoad() {
         super.viewDidLoad()
         
         videoFrame = view.frame
         self.videoShouldLoop = true
         self.alpha = 0.8
         self.playSound = false
-        self.videoScalingMode = .ResizeAspectFill
+        self.videoScalingMode = .resizeAspectFill
         
         
     }
@@ -115,7 +115,7 @@ public class VideoBackgroundViewController: UIViewController {
      
      - parameter animated: It it appears animated or not
      */
-    override public func viewDidAppear(animated: Bool) {
+    override open func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         //Sets the frame
         videoPlayer.view.frame = videoFrame
@@ -124,13 +124,13 @@ public class VideoBackgroundViewController: UIViewController {
         //Adds the video as a subview
         view.addSubview(videoPlayer.view)
         //Sends it to the back
-        view.sendSubviewToBack(videoPlayer.view)
+        view.sendSubview(toBack: videoPlayer.view)
     }
     
 
     //Removes the observer
     deinit{
-         NSNotificationCenter.defaultCenter().removeObserver(self)
+         NotificationCenter.default.removeObserver(self)
     }
     
     
