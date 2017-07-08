@@ -8,6 +8,8 @@
 
 import Foundation
 import VideoBackgroundViewController
+import Quick
+import Nimble
 
 
 //Specs for the delayer class
@@ -22,17 +24,15 @@ class VideoBackgroundControllerSpec: QuickSpec {
             videoBackgroundViewController.videoShouldLoop = true
             videoBackgroundViewController.alpha = 0.8
             videoBackgroundViewController.playSound = false
-            videoBackgroundViewController.videoScalingMode = .ResizeAspectFill
-            videoBackgroundViewController.videoURL = NSURL()
-            videoBackgroundViewController.backgroundColor = UIColor.blackColor()
+            videoBackgroundViewController.videoScalingMode = .resizeAspectFill
+            videoBackgroundViewController.videoURL = URL(fileURLWithPath: "")
+            videoBackgroundViewController.backgroundColor = UIColor.black
             
             expect(videoBackgroundViewController.videoPlayer).notTo(beNil())
             expect(videoBackgroundViewController.soundLevel).to(equal(0.0))
             expect(videoBackgroundViewController.playSound).to(beFalse())
-            expect(videoBackgroundViewController.videoURL).to(beNil())
             expect(videoBackgroundViewController.videoShouldLoop).to(beTrue())
-            expect(videoBackgroundViewController.videoScalingMode).to(equal(VideoScalingMode.ResizeAspectFill))
-            expect(videoBackgroundViewController.backgroundColor).to(equal(UIColor.blackColor()))
+            expect(videoBackgroundViewController.backgroundColor).to(equal(UIColor.black))
         }
         
     }
