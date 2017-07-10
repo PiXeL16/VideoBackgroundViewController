@@ -9,7 +9,7 @@ A View Controller that shows a video in the background, like Spotify!
 
 :star: Features
 ---
-* Customizable video URL... Duh!.
+* Customizable video URL.
 * Play video with sound or not.
 * Customizable sound level.
 * Customizable video alpha channel.
