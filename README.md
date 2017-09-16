@@ -67,5 +67,15 @@ Chris Jimenez - http://chrisjimenez.net, [@chrisjimeneznat](http://twitter.com/c
 
 Some ideas where taken from https://github.com/allenwong/30DaysofSwift
 
+:beer: Donate
+------
+If you want to buy me a beer, you can donate to my coin addresses below:
+#### BTC
+1BeGBew4CBdLgUSmvoyiU1LrM99GpkXgkj
+#### ETH
+0xa59a3793E3Cb5f3B1AdE6887783D225EDf67192d
+#### LTC
+Ld6FB3Tqjf6B8iz9Gn9sMr7BnowAjSUXaV
+
 ## License
 `VideoBackgroundViewController` is released under the MIT license. See [LICENSE](https://github.com/pixel16/VideoBackground/blob/master/LICENSE) for details.
