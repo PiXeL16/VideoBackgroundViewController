@@ -17,7 +17,6 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/PiXeL16/VideoBackgroundViewController.git", :tag => s.version }
   s.source_files  = "VideoBackgroundViewController/", "VideoBackgroundViewController/**/*.{h,m,swift}"
-  s.resource_bundle = { "VideoBackgroundViewController" =>  "VideoBackgroundViewController/**/*.png" }
 
   s.requires_arc = true
 
