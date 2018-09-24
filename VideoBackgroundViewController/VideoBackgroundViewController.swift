@@ -15,7 +15,7 @@ import AVKit
 open class VideoBackgroundViewController: UIViewController {
     
     /// The video player to use for the video in the background
-    open let videoPlayer: AVPlayerViewController = AVPlayerViewController()
+    public let videoPlayer: AVPlayerViewController = AVPlayerViewController()
     // The sound level of hte video
     open var soundLevel: Float = 1.0
     // If the video should have sound or not
@@ -57,18 +57,18 @@ open class VideoBackgroundViewController: UIViewController {
         didSet {
             if videoShouldLoop {
                 NotificationCenter.default.addObserver(self,
-                    selector: #selector(VideoBackgroundViewController.videoPlayerItemDidReachEnd),
-                    name: NSNotification.Name.AVPlayerItemDidPlayToEndTime,
-                    object: videoPlayer.player?.currentItem)
+                                                       selector: #selector(VideoBackgroundViewController.videoPlayerItemDidReachEnd),
+                                                       name: NSNotification.Name.AVPlayerItemDidPlayToEndTime,
+                                                       object: videoPlayer.player?.currentItem)
             }
         }
     }
     
     /**
-     Gets trigger when the video goes to the end, 
+     Gets trigger when the video goes to the end,
      */
     @objc func videoPlayerItemDidReachEnd() {
-        videoPlayer.player?.seek(to: kCMTimeZero)
+        videoPlayer.player?.seek(to: CMTime.zero)
         videoPlayer.player?.play()
     }
     
@@ -77,11 +77,11 @@ open class VideoBackgroundViewController: UIViewController {
         didSet {
             switch videoScalingMode {
             case .resize:
-                videoPlayer.videoGravity = AVLayerVideoGravity.resize.rawValue
+                videoPlayer.videoGravity = convertToAVLayerVideoGravity(AVLayerVideoGravity.resize.rawValue)
             case .resizeAspect:
-                videoPlayer.videoGravity = AVLayerVideoGravity.resizeAspect.rawValue
+                videoPlayer.videoGravity = convertToAVLayerVideoGravity(AVLayerVideoGravity.resizeAspect.rawValue)
             case .resizeAspectFill:
-                videoPlayer.videoGravity = AVLayerVideoGravity.resizeAspectFill.rawValue
+                videoPlayer.videoGravity = convertToAVLayerVideoGravity(AVLayerVideoGravity.resizeAspectFill.rawValue)
             }
         }
     }
@@ -124,15 +124,20 @@ open class VideoBackgroundViewController: UIViewController {
         //Adds the video as a subview
         view.addSubview(videoPlayer.view)
         //Sends it to the back
-        view.sendSubview(toBack: videoPlayer.view)
+        view.sendSubviewToBack(videoPlayer.view)
     }
     
-
+    
     //Removes the observer
     deinit{
-         NotificationCenter.default.removeObserver(self)
+        NotificationCenter.default.removeObserver(self)
     }
     
     
+    
+}
 
+// Helper function inserted by Swift 4.2 migrator.
+fileprivate func convertToAVLayerVideoGravity(_ input: String) -> AVLayerVideoGravity {
+    return AVLayerVideoGravity(rawValue: input)
 }
