@@ -24,7 +24,6 @@
 		9B39717B80E92AC1B74CBE3E /* Pods_VideoBackgroundViewControllerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 905545B0DB0E0B8F4E532CBB /* Pods_VideoBackgroundViewControllerTests.framework */; };
 		B806160DF0F717F1227F09C5 /* Pods_VideoBackgroundSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C877AE5912077C30AAA649C /* Pods_VideoBackgroundSample.framework */; };
 		B86C93A5B096ED00DCD432E2 /* Pods_VideoBackgroundSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D83B75C36FE40E75626CCC4 /* Pods_VideoBackgroundSampleTests.framework */; };
-		CF3138971ED6C59B00702BC8 /* VideoBackgroundViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83286D7A1C7C12670083CB19 /* VideoBackgroundViewController.framework */; };
 		CF3138981ED6C59B00702BC8 /* VideoBackgroundViewController.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 83286D7A1C7C12670083CB19 /* VideoBackgroundViewController.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
@@ -123,7 +122,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				837B5EFD1C7D8AA7007C81EE /* VideoBackgroundViewController.framework in Frameworks */,
-				CF3138971ED6C59B00702BC8 /* VideoBackgroundViewController.framework in Frameworks */,
 				B806160DF0F717F1227F09C5 /* Pods_VideoBackgroundSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,16 +343,16 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "Chris Jimenez";
 				TargetAttributes = {
 					83286D791C7C12670083CB19 = {
 						CreatedOnToolsVersion = 7.2.1;
-						LastSwiftMigration = 0830;
+						LastSwiftMigration = 1000;
 					};
 					83286D831C7C12670083CB19 = {
 						CreatedOnToolsVersion = 7.2.1;
-						LastSwiftMigration = 0830;
+						LastSwiftMigration = 1000;
 					};
 					83286D971C7C12AB0083CB19 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -691,14 +689,22 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -742,14 +748,22 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
