@@ -68,7 +68,7 @@ open class VideoBackgroundViewController: UIViewController {
      Gets trigger when the video goes to the end,
      */
     @objc func videoPlayerItemDidReachEnd() {
-        videoPlayer.player?.seek(to: CMTime.zero)
+        videoPlayer.player?.seek(to: kCMTimeZero)
         videoPlayer.player?.play()
     }
     
@@ -77,11 +77,11 @@ open class VideoBackgroundViewController: UIViewController {
         didSet {
             switch videoScalingMode {
             case .resize:
-                videoPlayer.videoGravity = convertToAVLayerVideoGravity(AVLayerVideoGravity.resize.rawValue)
+                videoPlayer.videoGravity = convertToAVLayerVideoGravity(AVLayerVideoGravity.resize.rawValue).rawValue
             case .resizeAspect:
-                videoPlayer.videoGravity = convertToAVLayerVideoGravity(AVLayerVideoGravity.resizeAspect.rawValue)
+                videoPlayer.videoGravity = convertToAVLayerVideoGravity(AVLayerVideoGravity.resizeAspect.rawValue).rawValue
             case .resizeAspectFill:
-                videoPlayer.videoGravity = convertToAVLayerVideoGravity(AVLayerVideoGravity.resizeAspectFill.rawValue)
+                videoPlayer.videoGravity = convertToAVLayerVideoGravity(AVLayerVideoGravity.resizeAspectFill.rawValue).rawValue
             }
         }
     }
@@ -124,7 +124,7 @@ open class VideoBackgroundViewController: UIViewController {
         //Adds the video as a subview
         view.addSubview(videoPlayer.view)
         //Sends it to the back
-        view.sendSubviewToBack(videoPlayer.view)
+        view.sendSubview(toBack: videoPlayer.view)
     }
     
     
